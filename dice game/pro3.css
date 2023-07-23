@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(221, 73, 73);
+}
+.player1 {
+  background-color: rgb(247, 140, 158);
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: -0px;
+}
+.player2 {
+  background-color: palevioletred;
+  height: 390px;
+  width: 400px;
+  margin-left: 680px;
+  margin-top: 150px;
+  /* position: absolute; */
+  padding: 5px;
+}
+h1 {
+  font-size: 50px;
+  margin-left: 250px;
+  margin-top: -100px;
+  text-transform: capitalize;
+  color: rgb(43, 43, 43);
+  position: absolute;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: darkred;
+}
+h3 {
+  font-size: 60px;
+  margin-left: 170px;
+  margin-top: -5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.current1,
+.current2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-left: 120px;
+  background-color: crimson;
+  height: 90px;
+  width: 150px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 7px;
+  color: aquamarine;
+}
+.newgame {
+  margin-left: 630px;
+  margin-top: 50px;
+  position: absolute;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 12px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 12px;
+}
+.newgame:hover {
+  background-color: darkcyan;
+}
+.dice6 {
+  margin-left: 650px;
+  position: absolute;
+  height: 50px;
+  width: 60px;
+  margin-top: 120px;
+  visibility: hidden;
+}
+.rolldice {
+  margin-left: 630px;
+  margin-top: 250px;
+  position: absolute;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 12px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 12px;
+}
+.rolldice:hover {
+  background-color: darkcyan;
+}
+.hold {
+  margin-left: 620px;
+  margin-top: 300px;
+  position: absolute;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 12px;
+  height: 30px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 12px;
+}
+.hold:hover {
+  background-color: darkcyan;
+}
+#zero--2 {
+  font-size: 40px;
+  margin-left: 140px;
+  color: rgb(207, 71, 8);
+  text-transform: uppercase;
+  visibility: hidden;
+}
+#zero--1 {
+  font-size: 40px;
+  margin-left: 140px;
+  color: rgb(207, 71, 8);
+  text-transform: uppercase;
+  visibility: hidden;
+}
