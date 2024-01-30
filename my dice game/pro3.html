@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="pro3.css" />
+  <script src="pro3.js"></script>
+  <body>
+    <h1>Let's see whose going to get first 20 points...</h1>
+    <div class="player1">
+      <h2 class="pla1">player 1</h2>
+      <h3 id="zero--1">wins</h3>
+      <div class="current1">
+        <p>current</p>
+        <p id="curzero--0">0</p>
+      </div>
+    </div>
+    <input
+      type="button"
+      value="new game"
+      class="newgame"
+      id="newgame"
+      onclick="newgame()"
+    />
+    <input
+      type="button"
+      value="roll dice"
+      class="rolldice"
+      id="rolldice"
+      onclick="rolldice()"
+    />
+    <input
+      type="button"
+      value="Change Names"
+      onclick="nxtplayer()"
+      class="hold"
+      id="hold"
+    />
+    <img src="dice6.jpg" class="dice6" id="dice6" alt="" />
+
+    <div class="player2">
+      <h2 class="pla2">player 2</h2>
+      <h3 id="zero--2">wins</h3>
+      <div class="current2">
+        <p>current</p>
+        <p id="curzero--1">0</p>
+      </div>
+    </div>
+  </body>
+</html>
